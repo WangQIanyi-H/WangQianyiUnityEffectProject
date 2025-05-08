@@ -1,0 +1,504 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Woman_Golden_EyeRef_New
+  m_Shader: {fileID: 4800000, guid: 2957218c95c2a994cb8edf311a632088, type: 3}
+  m_ValidKeywords: []
+  m_InvalidKeywords:
+  - CUSTOM_SHADOW
+  - _ALPHATEST_ON
+  - _ENABLEALPHACLIP_ON
+  - _ENABLEDISOLVE_OFF
+  - _ENABLEEYE_OFF
+  - _ENABLEFRESNELSKIN_OFF
+  - _ENABLEGEM_OFF
+  - _ENABLEHAIRDEBUG_OFF
+  - _ENABLEHAIR_OFF
+  - _ENABLEPBRMETAL_OFF
+  - _ENABLEPBRSKIN_OFF
+  - _ENABLESTOCKING_OFF
+  - _PCF_POISON
+  - _PCF_QUALITY_MEDIUM
+  - _RETURNILMA_OFF
+  - _SHADERENUM_BASE
+  - _SURFACE_TYPE_TRANSPARENT
+  - _USESMOOTHNORMAL_NONE
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses:
+  - DepthOnly
+  - SHADOWCASTER
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BaseMap:
+        m_Texture: {fileID: 2800000, guid: 8445924e0e8af8b4db75eea66bb088bf, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Cubemap:
+        m_Texture: {fileID: 8900000, guid: fde63f376401f5d4cbe268517f073c11, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DisolveNoiseMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EyeMatcap:
+        m_Texture: {fileID: 2800000, guid: 87b743160993ecc41a5545140b79c217, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EyeNormal:
+        m_Texture: {fileID: 2800000, guid: ad67b69545d2bff429e40a72d7ea7a98, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _FrozenSecondMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _FrozenTillingMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _FrozenVertexDisplacementMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _GemMatcap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _GemMatcap2:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _HairSpecMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ILM:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _LeatherMatcap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: e154de77fe87fa842ba9c74825128942, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MatCap:
+        m_Texture: {fileID: 2800000, guid: 174558b5c6d41934bb4910b9a755ecb2, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetalTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RampTex:
+        m_Texture: {fileID: 2800000, guid: 4694c8bc83f368a4f882ed948aa36dde, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ReflectCube:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RimMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SDFMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SecHairSpecMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SelfShadowMask:
+        m_Texture: {fileID: 2800000, guid: 47f993bf2ad7dfd49b17c9e54b076c3d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SpecGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _StockingMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _UniqueMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _AODarkIntensity: 1
+    - _AOLightIntensity: 0.5
+    - _Alpha: 1
+    - _AlphaClip: 1
+    - _AnisotropicClamp: 1
+    - _AnisotropicOffset: 0
+    - _AnisotropicOffsetDrag: 0
+    - _AnisotropicSlide: 1
+    - _BasePart: 0
+    - _BasePartEnd: 1
+    - _BaseTexFac: 1
+    - _Blend: 0
+    - _BlendOp: 0
+    - _BlendOpOverlay: 0
+    - _BlinnPhongPow: 3
+    - _Brightness: 0
+    - _BumpScale: 1
+    - _CharacterShadowControl: 0
+    - _ClearCoatMask: 0
+    - _ClearCoatSmoothness: 0
+    - _ClothContrast: 1
+    - _ClothSaturation: 1
+    - _Contrast: 0
+    - _Cull: 2
+    - _Cutoff: 0.5
+    - _DayDarkIntensity: 1
+    - _DayLightIntensity: 1
+    - _DetailAlbedoMapScale: 1
+    - _DetailNormalMapScale: 1
+    - _DiffuseBrightness: 0.644
+    - _DiffuseIntensity: 1
+    - _DisolveEdgeWidth: 0.04
+    - _DisolveIntensityWPO: 10
+    - _DisolveInvert: 0
+    - _DisolveMax: 10
+    - _DisolveMin: 0
+    - _DisolveOffsetValue: 0
+    - _DisolveSoft: 4.1
+    - _DisolveValue: 0
+    - _DissolvePart: 1
+    - _DissolvePartEnd: 1
+    - _DstBlend: 10
+    - _DstBlendMode: 0
+    - _DstBlendModeOverlay: 0
+    - _EdgeDrakIntensity: 1
+    - _EdgeOffset: 0.65
+    - _EmissionIntensity: 0
+    - _EmissionPart: 1
+    - _EmissionPartEnd: 1
+    - _EnableAlphaClip: 1
+    - _EnableDisolve: 0
+    - _EnableEye: 0
+    - _EnableFresnelSkin: 0
+    - _EnableGem: 0
+    - _EnableHair: 0
+    - _EnableHairDebug: 0
+    - _EnablePBRMetal: 0
+    - _EnablePBRSkin: 0
+    - _EnableStocking: 0
+    - _EnvPart: 1
+    - _EnvPartEnd: 1
+    - _EnvironmentReflections: 1
+    - _EyeBrightness: 1
+    - _EyeMatcapIntensity: 2.29
+    - _EyeMatcapPow: 1.6
+    - _EyeNormalScale: -1.84
+    - _EyeOffset: 0
+    - _EyePart: 0
+    - _EyePartEnd: 1
+    - _EyeShadowIntensity: 0.075
+    - _EyeSpecIntensity: 2
+    - _FaceColorIntensity: 1
+    - _FaceSDFPart: 1
+    - _FaceSDFPartEnd: 1
+    - _FaceShadowOffset: -0.1
+    - _FaceShadowSoftness: 0.033
+    - _FirstSpecShift: 0
+    - _FirstSpecSmoothness: 0.8
+    - _FresnelRimColorWidth: 2
+    - _FresnelRimPart: 1
+    - _FresnelRimPartEnd: 1
+    - _Frozen: 0
+    - _FrozenDistance: 0.5
+    - _FrozenDistanceSmooth: 0.02
+    - _FrozenFresnelIntensity: 1
+    - _FrozenFresnelScale: 5
+    - _FrozenIntensity: 1
+    - _FrozenPart: 1
+    - _FrozenPartEnd: 1
+    - _FrozenSecondAddOrMul: 0
+    - _FrozenValue: 0
+    - _FrozenVertexDisplacementIntensity: 0.1
+    - _GemMatcap2Intensity: 0.3
+    - _GemPart: 1
+    - _GemPartEnd: 1
+    - _GlitterColorWidth: 2
+    - _GlitterPart: 1
+    - _GlitterPartEnd: 1
+    - _GlobalSpecIntensity: 1
+    - _GlobalSpecShift: 0
+    - _GlossMapScale: 0
+    - _Glossiness: 0
+    - _GlossyReflections: 0
+    - _HairPart: 1
+    - _HairPartEnd: 1
+    - _HairRimHardness: 0.5
+    - _HairRimOffset: 0
+    - _HairRimRange: 2
+    - _HairSpecPow: 1
+    - _InDirectDiffuseBrightness: 1
+    - _IndirectLightAOIntensity: 1
+    - _IndirectLightFlattenNormal: 1
+    - _IndirectLightIntensity: 0.388
+    - _IndirectLightMixAlbedo: 1
+    - _InvFade: 1
+    - _KsCloth: 1
+    - _KsLeather: 1
+    - _KsMetallic: 0
+    - _KsNonMetallic: 1
+    - _KsSkin: 0.5
+    - _LeatherMatcapIntensity: 0
+    - _LightingPart: 1
+    - _LightingPartEnd: 1
+    - _MatCapIntensity: 1
+    - _MatCapPow: 0.7
+    - _Metal: 0
+    - _MetalContrast: 1
+    - _MetalSaturation: 1
+    - _Metallic: 0
+    - _MetallicPart: 1
+    - _MetallicPartEnd: 1
+    - _NightDarkIntensity: 1
+    - _NightLightIntensity: 1
+    - _NormalScale: 1
+    - _OcclusionStrength: 1
+    - _OutlineOffset: 4717
+    - _OutlinePart: 1
+    - _OutlinePartEnd: 1
+    - _OutlineScaleFactor: 0.00001
+    - _OutlineWidth: 0.56
+    - _OutlineZOffset: 0
+    - _Parallax: 0.005
+    - _PreviewWPOMask: 0
+    - _QueueOffset: 0
+    - _RampMapRow0: 10
+    - _RampMapRow1: 6
+    - _RampMapRow2: 7
+    - _RampMapRow3: 8
+    - _RampMapRow4: 9
+    - _RampOffsetValue: 0
+    - _RampSoft: 0.45
+    - _ReceiveShadows: 1
+    - _ReflectCubeRotation: 360
+    - _ReflectIntensity: 0
+    - _ReflectYOffset: 0.94
+    - _RenderSettingPart: 1
+    - _RenderSettingPartEnd: 1
+    - _ReturnILMA: 0
+    - _RimColorBlend: 0
+    - _RimHardness: 0.5
+    - _RimIntensity: 1
+    - _RimPart: 1
+    - _RimPartEnd: 1
+    - _RimRange: 1
+    - _RimlightFadeout: 10
+    - _RimlightThreshold: 0.3
+    - _SceneShadowControl: 0.3
+    - _ScrBlendModeOverlay: 1
+    - _SecAnisotropicOffset: 0
+    - _SecAnisotropicSlide: 0.1
+    - _SecBlinnPhongPow: 3
+    - _SecHairSpecPow: 1
+    - _SecondSpecShift: 0
+    - _SecondSpecSmoothness: 0.8
+    - _ShaderEnum: 0
+    - _ShadowPart: 1
+    - _ShadowPartEnd: 1
+    - _ShadowRamp: 0
+    - _ShadowSmoothMax: 0.4
+    - _ShadowSmoothMin: 0
+    - _ShadowSpread: 1.36
+    - _SkinSmoothMin: 0
+    - _SkinSmoothRange: 1
+    - _SkinSmoothness: 1
+    - _SkinSpecPar: 1
+    - _SkinSpecPartEnd: 1
+    - _SmoothMin: 0
+    - _SmoothRange: 0
+    - _Smoothness: 0.5
+    - _SmoothnessTextureChannel: 0
+    - _SpecExpon: 50
+    - _SpecExponCloth: 10
+    - _SpecExponLeather: 10
+    - _SpecExponMetal: 94
+    - _SpecExponNonMetal: 50
+    - _SpecExponSkin: 50
+    - _SpecIntensity1: 1.06
+    - _SpecOffest: 0.48
+    - _SpecSoftCloth: 0
+    - _SpecSoftLeather: 0
+    - _SpecSoftNonMetal: 0
+    - _SpecSoftRangeCloth: 0
+    - _SpecSoftRangeLeather: 0
+    - _SpecSoftRangeMetal: 0
+    - _SpecSoftRangeNonMetal: 0
+    - _SpecularBrightness: 1
+    - _SpecularHighlights: 1
+    - _SpecularIntensity: 2
+    - _SrcBlend: 5
+    - _SrcBlendMode: 1
+    - _StencilComp: 8
+    - _StencilCompOverlay: 0
+    - _StencilFailOp: 0
+    - _StencilPassOp: 2
+    - _StencilRef: 2
+    - _StencilRefOverlay: 0
+    - _StencilZFailOp: 0
+    - _StepLightIntensity: 0
+    - _StepLightSoft: 0
+    - _StepLightWidth: 0
+    - _StockingPart: 1
+    - _StockingPartEnd: 1
+    - _StockingTransitionHardness: 0
+    - _StockingTransitionPower: 1.25
+    - _StockingTransitionThreshold: 0.726
+    - _Surface: 1
+    - _UniqueMapContrast: 1
+    - _UniqueMapTiling: 10
+    - _UniqueStrength: 0
+    - _UseDrawOverlay: 0
+    - _UseSmoothNormal: 0
+    - _ViewLightPart: 1
+    - _ViewLightPartEnd: 1
+    - _ViewSpaceZOffset: 0.012
+    - _WorkflowMode: 1
+    - _ZTestMode: 4
+    - _ZWrite: 0
+    m_Colors:
+    - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
+    - _CenterOffset: {r: 0.28857622, g: 0.19999988, b: 23.892263, a: 0}
+    - _ClothColor1: {r: 1, g: 1, b: 1, a: 1}
+    - _ClothColor2: {r: 1, g: 1, b: 1, a: 1}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _DarkLeatherColor1: {r: 1, g: 1, b: 1, a: 1}
+    - _DarkLeatherColor2: {r: 1, g: 1, b: 1, a: 1}
+    - _DarkMetalColor: {r: 1, g: 1, b: 1, a: 1}
+    - _DisolveControlValueWPO: {r: 0, g: 10, b: 3, a: 0}
+    - _DisolveDirection: {r: 0, g: 0, b: 1, a: 0}
+    - _DisolveEdgeColor: {r: 1, g: 0.8, b: 0.9, a: 1}
+    - _DisolveNoiseFlowDir: {r: 0, g: 1, b: 0, a: 1}
+    - _DisolveNoiseTilling: {r: 1, g: 1, b: 1, a: 1}
+    - _EdgeBackColor: {r: 1, g: 1, b: 1, a: 1}
+    - _EdgeColor: {r: 0.3679245, g: 0.3679245, b: 0.3679245, a: 1}
+    - _EdgeLightColor: {r: 1, g: 1, b: 1, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 0}
+    - _FirstSpecColor: {r: 1, g: 1, b: 1, a: 1}
+    - _FresnelRimColor: {r: 0, g: 0, b: 0, a: 1}
+    - _FrozenColor: {r: 1, g: 1, b: 1, a: 1}
+    - _FrozenDir: {r: 0, g: 1, b: 0, a: 1}
+    - _FrozenFresnelColor: {r: 1, g: 1, b: 1, a: 1}
+    - _FrozenSecondColor: {r: 1, g: 1, b: 1, a: 1}
+    - _FrozenVertexDisplacementColor: {r: 0, g: 0, b: 0, a: 0}
+    - _GlitterColor: {r: 0, g: 0, b: 0, a: 1}
+    - _Gray0DiffuseIntensity: {r: 1, g: 1, b: 1, a: 1}
+    - _Gray1DiffuseIntensity: {r: 1, g: 1, b: 1, a: 1}
+    - _Gray2DiffuseIntensity: {r: 1, g: 1, b: 1, a: 1}
+    - _Gray3DiffuseIntensity: {r: 1, g: 1, b: 1, a: 1}
+    - _Gray4DiffuseIntensity: {r: 1, g: 1, b: 1, a: 1}
+    - _HairDarkColor: {r: 1, g: 1, b: 1, a: 1}
+    - _HairGradientColor: {r: 1, g: 1, b: 1, a: 1}
+    - _HairLightColor: {r: 1, g: 1, b: 1, a: 1}
+    - _HairMatcapColor: {r: 1, g: 1, b: 1, a: 1}
+    - _HairShadowColor: {r: 0.8, g: 0.8, b: 0.8, a: 1}
+    - _HairShadowOffset: {r: 10, g: 10, b: 0, a: 0}
+    - _HairSpecColor: {r: 0.990566, g: 0.73130566, b: 0.36912602, a: 0}
+    - _HairSpecMask: {r: -5.62, g: 9.43, b: 1, a: 1}
+    - _HairStrandDir: {r: 1, g: 0, b: 0, a: 0}
+    - _HairStrandDir2: {r: 1, g: 0, b: 0, a: 0}
+    - _HeadFoward: {r: 0, g: 0, b: 0.15110016, a: 0}
+    - _HeadRight: {r: -0.18449974, g: 0, b: 0, a: 0}
+    - _LeatherColor1: {r: 1, g: 1, b: 1, a: 1}
+    - _LeatherColor2: {r: 1, g: 1, b: 1, a: 1}
+    - _MainColor: {r: 0.38679248, g: 0.254828, b: 0, a: 1}
+    - _MetalColor: {r: 1, g: 1, b: 1, a: 1}
+    - _NightShadowColor: {r: 1, g: 0.8436657, b: 0.81761, a: 1}
+    - _NonMetallicColor: {r: 1, g: 1, b: 1, a: 1}
+    - _NonMetallicColor1: {r: 1, g: 1, b: 1, a: 1}
+    - _NonMetallicColor2: {r: 1, g: 1, b: 1, a: 1}
+    - _OutlineAdj01: {r: 0.01, g: 2, b: 6, a: 0}
+    - _OutlineAdj02: {r: 0.5, g: 0.74, b: 1.5, a: 0}
+    - _OutlineMapColor0: {r: 0.49056602, g: 0.26745656, b: 0.18820454, a: 0}
+    - _OutlineMapColor1: {r: 0, g: 0, b: 0, a: 0}
+    - _OutlineMapColor2: {r: 0, g: 0, b: 0, a: 0}
+    - _OutlineMapColor3: {r: 0, g: 0, b: 0, a: 0}
+    - _OutlineMapColor4: {r: 0, g: 0, b: 0, a: 0}
+    - _RimColor: {r: 1, g: 1, b: 1, a: 1}
+    - _SSSColor: {r: 0, g: 0, b: 0, a: 0}
+    - _SecHairSpecColor: {r: 1, g: 1, b: 1, a: 1}
+    - _SecondSpecColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    - _ShadowColor: {r: 1, g: 0.7921569, b: 0.7607843, a: 1}
+    - _SkinSpecColor: {r: 1, g: 1, b: 1, a: 1}
+    - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
+    - _SpecOffest: {r: -0.15, g: -0.91, b: 0, a: 0}
+    - _StepLightColor: {r: 1, g: 1, b: 1, a: 1}
+    - _StockingDarkColor: {r: 0.38799992, g: 0.38799992, b: 0.38799992, a: 1}
+    - _StockingEdgeColor: {r: 1, g: 0.945, b: 0.9372, a: 1}
+    - _StockingLightColor: {r: 1, g: 0.945, b: 0.9372, a: 1}
+    - _StockingSpecColor: {r: 1, g: 0.945, b: 0.9372, a: 1}
+    - _StockingTransitionColor: {r: 0.981, g: 0.6285, b: 0.5877, a: 1}
+    - _TintColor: {r: 1, g: 1, b: 1, a: 0.6509804}
+    - _UniqueColor: {r: 1, g: 1, b: 1, a: 1}
+  m_BuildTextureStacks: []
